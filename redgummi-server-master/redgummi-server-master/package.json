@@ -1,0 +1,58 @@
+{
+  "name": "jobumes-server",
+  "description": "Backend server for the jobumes service",
+  "version": "0.1.0",
+  "homepage": "https://github.com/enhariharan/jobumes-server",
+  "author": {
+    "name": "Hariharan Narayanan",
+    "email": "enhariharan@gmail.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/enhariharan/jobumes-server.git"
+  },
+  "bugs": {
+    "url": "https://github.com/enhariharan/jobumes-server/issues"
+  },
+  "licenses": [
+    {
+      "type": "private",
+      "url": "https://github.com/enhariharan/jobumes-server/blob/master/LICENSE-private"
+    }
+  ],
+  "main": "lib/jobumes-server",
+  "engines": {
+    "node": ">= 6.0.0"
+  },
+  "scripts": {
+    "start": "node lib/app/jobumes-server.js",
+    "test": "NODE_ENV=test mocha"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "grunt": "~1.0.1",
+    "grunt-apidoc": "^0.11.0",
+    "grunt-contrib-jshint": "~1.1.0",
+    "grunt-contrib-nodeunit": "~1.0.0",
+    "grunt-contrib-watch": "~1.0.0",
+    "grunt-env": "^0.4.4",
+    "grunt-mocha-test": "^0.13.2",
+    "mocha": "^3.2.0"
+  },
+  "keywords": [],
+  "dependencies": {
+    "basic-auth": "^1.1.0",
+    "body-parser": "^1.16.1",
+    "cors": "^2.8.1",
+    "express": "^4.14.1",
+    "http": "0.0.0",
+    "mkdirp": "^0.5.1",
+    "mongoose": "^4.8.4",
+    "multer": "^1.3.0",
+    "nodemailer": "^4.0.1",
+    "restler": "^3.4.0",
+    "soap": "^0.18.0",
+    "uuid": "^3.0.1",
+    "xoauth2": "^1.2.0"
+  }
+}

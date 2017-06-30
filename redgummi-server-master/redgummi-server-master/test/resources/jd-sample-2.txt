@@ -1,0 +1,10 @@
+﻿Testing Engineer
+Experience:	Fresher, 0-1 Yr
+Location:	Jia Sarai, Delhi
+Education:	BE / Btech / ME / Mtech / MCA / MSc / MS
+Job Description
+Research and document bug reports following agreed-upon processes immediately upon discovery of a quality problem.  Update test execution status following agreed-upon processes as part of regularly-scheduled test status updates.
+Soft Skills
+•	At least 1 years of experience designing and developing automated test scenarios. •	Exposure to software release/build process/SDLC required. •	Hands on experience of using Selenium/QTP/LOAD TESTING as Automation Testing tool. •	Experience testing web and reporting services applications preferably in a .NET environment. •	Experience in software testing for Educational software is preferred.
+Technical Skills
+ Review requirements, specifications, user documentation, help files, and other project documentation to assure quality of the products and tests to be developed; i.e., perform manual static testing.  Select and develop appropriate test automation tools, applying the latest techniques in test automation; e.g., data-driven testing.  Use risk-driven techniques to develop, maintain, and execute automated test suites for various Software Cafeteria products; i.e., perform automated dynamic testing.  Work with the Development team to capture and reuse automated Unit Test Cases, Test Stubs and Drivers, and other Development test objects.  Participate in the Change Control Board to identify the quality implications of known bugs and the impact of proposed changes to product definition on the testing process.  Knowledge of Testing tools like HP Quick Test Professional,Selenium,IBM Rational Functional Tester, SilkTest, TestComplete, Testing Anywhere,WinRunner LoadRunner,Visual Studio Test Professional,WATIR  Ensure proper version control and configuration management of all test objects developed and test environments used.

@@ -1,0 +1,9 @@
+Company: ADP India
+Job Location: Hyderabad
+Exp: 10+Yrs
+Role: Application Architect
+
+* At least 10 years experience with full cycle application development (Full SDLC experience: design, development, delivery,etc.)
+* Experience managing at least one product development team (several preferred)
+* Cross-functional familiarity with Product Management and UX
+* Strong CS and product development fundamentals (design patterns, database schema design, data modeling, API design and considerations, design by promise, quality concepts including TDD & BDD approaches)

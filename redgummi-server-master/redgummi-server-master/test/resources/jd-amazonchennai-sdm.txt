@@ -1,0 +1,58 @@
+Software Development Manager
+
+Job Location: Chennai
+
+We need an experienced Software Development Manager to start and build out a team of software developers in Chennai. You will be responsible for hiring, developing and building out the identity of the team that uses software solutions to cater to the eBooks business. Your team will be enabling new business initiatives by leveraging platform solutions and build software that make these platforms easier to use for the eBooks business. We are looking for someone who has an established background in designing and building highly scalable distributed systems, excellent project management skills, comfortable in communicating with both technical and business teams and the motivation to achieve results in a fast paced environment.
+
+Responsibilities:
+
+    Work with partners, stakeholders, and customers to develop and evolve the vision and strategy for the team and then translate that into an achievable road map/action plan.
+    Manage, execute, and communicate project plans, delivery commitment, and operational performance.
+    Staff, mentor, enhance, and maintain a best-of-class software development team.
+    Work closely with software developers to architect and develop the best technical designs, architectures and implementations.
+    Work directly with other Digital software teams to deliver high quality software features and updates.
+
+  Basic Qualifications
+
+    BS Computer Science or related
+    15+ years experience planning, designing, developing and delivering software.
+    3+ years experience as a People Manager in a software development organization.
+    Knowledge of Unix/Linux, C++ or Java, OO and Service Oriented Architecture.
+    Complex solution architecture design across multiple systems.
+    Experience with agile development methodologies (e.g. Scrum)
+    Must have managed a team and demonstrated successful delivery of products in career.
+
+  Preferred Qualifications
+
+    Experience with and passion for digital products
+    Excellent written and verbal communication skills with the ability to present complex technical information in a clear and concise manner to a variety of audiences.
+    Experience designing and developing large scale, high traffic applications.
+    Ability to handle multiple competing priorities in a fast-paced environment.
+    Knowledge of software engineering best practices including coding standards, code reviews, source control management, build processes, testing, and operations
+
+Competencies to be assessed:
+
+    Customer Obsession, Dive Deep(Code reviews, Understanding on Data structure and Algorithm).
+    Deep Dive, Design & Architecture & System design
+    People Management, Hire and Develop the Best
+    Communication, Have Backbone ,Disagree & Commit, Deliver Results
+    Project management, Stakeholder communication, Dealing with ambiguity
+
+If this is interesting to you kindly revert back with your updated CV along with the following details:
+
+    Have you applied for Amazon in the past 6 months (Yes/No)
+    Current CTC
+    Expected CTC (Negotiable/Not negotiable)
+    Notice Period(Negotiable/Not Negotiable)
+    Reason for Change
+    Current Location
+    Interested to relocate to Chennai (YES/NO)
+    Availability for the F2F interview in Bangalore on 7th Jan'16 (Yes/No)
+
+Useful WebLinks:
+
+https://www.careercup.com/page?pid=software-development-manager-interview-questions
+
+https://www.glassdoor.co.in/Interview/Amazon-com-Software-Development-Manager-Interview-Questions-EI_IE6036.0,10_KO11,39.htm?countryRedirect=true
+
+https://www.youtube.com/watch?v=a-4NzSLmxp8
