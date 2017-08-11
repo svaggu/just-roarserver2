@@ -18,12 +18,11 @@ const Video = require('../lib/models/video-model').Video;
 const Favourite = require('../lib/models/favourite-model').Favourite;
 const EmailTemplate = require('../lib/models/email-template-model').EmailTemplate;
 const SearchCriteria = require('../lib/models/search-criteria-model').SearchCriteria;
-const CoverLetter = require('../models/cover-letter-model').CoverLetter;
-const Organization = require('../models/organization-model').Organization;
-const Favourite = require('../models/favourite-model').Favourite;
-const CreateAlert = require('../models/create-alert-model').CreateAlert;
-const PaymentType = require('../models/payment-type-model').PaymentType;
-const AdminUpload = require('../models/admin-upload-model').AdminUpload;
+const CoverLetter = require('../lib/models/cover-letter-model').CoverLetter;
+const Organization = require('../lib/models/organization-model').Organization;
+const CreateAlert = require('../lib/models/create-alert-model').CreateAlert;
+const PaymentType = require('../lib/models/payment-type-model').PaymentType;
+const AdminUpload = require('../lib/models/admin-upload-model').AdminUpload;
 
 const opts = { server: { socketOptions: { keepAlive: 1 } } };
 
