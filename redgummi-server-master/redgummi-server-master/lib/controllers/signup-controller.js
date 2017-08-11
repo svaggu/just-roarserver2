@@ -57,41 +57,42 @@ exports.addNewUser = function (req, res) {
     var roleDetails = {};
     roleDetails.roleInfo = role;
     console.log('roleDetails :: %j',roleDetails);
+    console.log('request boyd :: %j',req.body);
     registeredUserDTO.push(roleDetails);
     return SignupManagementService.addNewUser(req.body,role.uuid); })
   .then(userDTO => {
-    if (userDTO.exists) {
+    // if (userDTO.exists) {
       console.info('user (%s) is already present', userDTO.profile.email);
       registeredUserDTO.push(userDTO.profile);
-      return res.status(200).send(registeredUserDTO);
-    } else {
-      MailService.getMailTemplate("Registration")
-      .then(template => {
-        var modifiedText = "Dear "+req.body.firstName+" "+req.body.lastName+",\n"+template[0].text+"\n\n\n Thanks & Regards \n Red-Gummi.";
-          var mailOptions = {
-              from: 'Admin<aredgummi@gmail.com>',
-              to: ''+req.body.username,
-              subject: ''+template[0].subject,
-              text: ''+modifiedText
-          }
-          transporter.sendMail(mailOptions, function (err, res) {
-            if(err){
-                console.log('Error',err);
-            } else {
-                console.log('Email Sent');
-            }
-          })
-          console.info('added new user: (%s)', userDTO.profile.email);
-          registeredUserDTO.push(userDTO.profile);
-          return res.status(201).send(registeredUserDTO);
-      })
-      .catch(err => {
-        if (err.code === undefined) { reject({code: '500', reason: err}); }
-        reject(err);
-      });
+      return res.status(201).send(registeredUserDTO);
+    // } else {
+    //   MailService.getMailTemplate("Registration")
+    //   .then(template => {
+    //     var modifiedText = "Dear "+req.body.firstName+" "+req.body.lastName+",\n"+template[0].text+"\n\n\n Thanks & Regards \n Red-Gummi.";
+    //       var mailOptions = {
+    //           from: 'Admin<aredgummi@gmail.com>',
+    //           to: ''+req.body.username,
+    //           subject: ''+template[0].subject,
+    //           text: ''+modifiedText
+    //       }
+    //       transporter.sendMail(mailOptions, function (err, res) {
+    //         if(err){
+    //             console.log('Error',err);
+    //         } else {
+    //             console.log('Email Sent');
+    //         }
+    //       })
+    //       console.info('added new user: (%s)', userDTO.profile.email);
+    //       registeredUserDTO.push(userDTO.profile);
+    //       return res.status(201).send(registeredUserDTO);
+    //   })
+    //   .catch(err => {
+    //     if (err.code === undefined) { reject({code: '500', reason: err}); }
+    //     reject(err);
+    //   });
 
 
-    }
+    // }
   }).catch(err => {
     console.error('Err: %s', JSON.stringify(err));
     return res.status(err.code).send(err);
